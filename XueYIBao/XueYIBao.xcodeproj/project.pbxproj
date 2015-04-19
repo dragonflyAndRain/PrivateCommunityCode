@@ -60,6 +60,7 @@
 		ACA20A2E1AE36FFD004F0734 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		ACA20A301AE37009004F0734 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		ACA20A321AE37214004F0734 /* Components */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Components; sourceTree = "<group>"; };
+		E00B66441AE3972D00A34F84 /* XueYIBao.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XueYIBao.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +130,7 @@
 			children = (
 				ACA209FA1AE36ECF004F0734 /* Info.plist */,
 				ACA209FB1AE36ECF004F0734 /* main.m */,
+				E00B66441AE3972D00A34F84 /* XueYIBao.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -396,6 +398,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XueYIBao/XueYIBao.pch";
 				INFOPLIST_FILE = XueYIBao/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -406,6 +409,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XueYIBao/XueYIBao.pch";
 				INFOPLIST_FILE = XueYIBao/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -465,6 +469,7 @@
 				ACA20A1B1AE36ECF004F0734 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACA20A1C1AE36ECF004F0734 /* Build configuration list for PBXNativeTarget "XueYIBaoTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +478,7 @@
 				ACA20A1E1AE36ECF004F0734 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
